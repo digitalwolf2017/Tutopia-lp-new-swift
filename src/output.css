@@ -297,6 +297,9 @@
   .bottom-1 {
     bottom: var(--spacing);
   }
+  .bottom-2 {
+    bottom: calc(var(--spacing) * 2);
+  }
   .left-0 {
     left: 0px;
   }
@@ -446,6 +449,9 @@
   }
   .h-47\.5 {
     height: calc(var(--spacing) * 47.5);
+  }
+  .h-48 {
+    height: calc(var(--spacing) * 48);
   }
   .h-102\.5 {
     height: calc(var(--spacing) * 102.5);
@@ -1520,6 +1526,9 @@
     }
     .sm\:h-18 {
       height: calc(var(--spacing) * 18);
+    }
+    .sm\:h-52 {
+      height: calc(var(--spacing) * 52);
     }
     .sm\:w-9 {
       width: calc(var(--spacing) * 9);
